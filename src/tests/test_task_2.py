@@ -111,3 +111,6 @@ class TestTask2(unittest.TestCase):
                                  'first_name 5\n'
                                  'last_name 5\n'
                                  'father 5\n')
+
+if __name__ == '__main__':
+    unittest.main()

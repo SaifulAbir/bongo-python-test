@@ -45,3 +45,7 @@ class TestTask3(unittest.TestCase):
 
     def test__when_node9_2_are_passed__should_return_2(self):
         self.assert_stdout(self.node9, self.node2, '2\n')
+
+
+if __name__ == '__main__':
+    unittest.main()
